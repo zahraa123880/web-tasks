@@ -1,258 +1,275 @@
 body
 {
-	 margin-top:0px;
-	 direction:rtl;
+	margin-top:0px;
 }
-/* the main div*/
-.ground 
+
+/*      the top       */
+.top
 {
-	 background-image:url('../imges/img14.jpg');
-	 background-size:cover
+	background-image:url('../img/city.jpg');
+	background-size:cover;
+	height:400px
 }
 
-
-/* main style in the task */
-h2
- {
-     border-bottom:2px solid #d84b1f;
-	 color:#d84b1f;
-	 padding:10px;
-	 height:15px;
-	 width:100px
-}
-
-input 
+.navbar
 {
-	 width:250px;
-	 color:white;
-	 border:0px;
+	background:none;
+	height:50px;
+	padding:5px
+}
+.navbar ul
+{
+	list-style-type:none;
+	position:fixed
+	
+}
+
+.navbar ul li
+{
+	 margin:10px;
+     font-weight:bold;
+	 display:inline-block;
+	 text-transform:capitalize;
 	 padding:5px;
-	 background:rgba(123,83,22,0.5);
 }
 
-.contaner 
+.navbar ul li a
 {
-	 width:680px;
+	text-decoration:none;
+	color:#14a01a
+}
+
+.navbar ul li:hover a
+{
+	background:rgba(0,0,0,0.8);
+	padding:5px
+}
+
+.gala
+{
+	 float:right;
+	 color:#03a9f4;
+	 border:0px;
+	 font-style:italic;
+	 background:none
+	
+}
+
+/*     main div       */
+.container
+{
 	 margin:auto;
+	 width:800px;
+	 height:430px;
+	 color:blue;
 	 overflow:hidden
 }
 
-
-/* the top of the page */
-.ground  .contaner h1
+h1
 {
-	 width:300px;
-	 color:white;
-	 font-size:40px;
-	 margin:150px 200px 150px 10px;
-	 border-top:2px solid #ffffff;
-     border-bottom:2px solid #ffffff;
-	 padding-right:15px
-} 
-
-.ground .navbar 
-{
-	 background:rgba(43, 28, 7, 0.8);
-	 height:40px;
-	 position:fixed;
-	 width:100%;
-	 margin-bottom:50px
+	 color:#14a01a;
+	 margin:220px 300px;
 }
 
-.ground .navbar ul 
+/*      about div      */
+h1 span
 {
-	 list-style-type:none;
-	 float:right;
-	 overflow:hidden;
-	 margin-top:5px;
-	 
+	 color:black;
 }
+
+.about
+{
+	background:#dbdcdc;
+	padding:20px;
+	width:740px;
+	height:330px;
+	margin:20px
 	
-.ground  .navbar  ul li
-{
-	 display:inline-block;
-	 margin:30p
 }
 
-.ground .navbar ul li a
+.about img
 {
-     text-decoration:none;
-	 margin:10px;
-     color:white;	
-}
-
-.ground  .navbar  ul li.active a,
-.ground  .navbar ul li a:hover
-{
-	 color:#ea531e;
-}
-
-
-/* the bady of the page */
-.who-are 
-{
-	 background:rgba(43, 28, 7, 0.5);
-	 overflow:hidden;
-	 color:white;
-	 margin:30px
-}
-	
-.who-are p 
-{
+     width:250px;
+	 height:280px;
 	 float:right;
-	 width:350px;
-	 height:200px;
-	 line-height:35px
 }
 
-.who-are img
+.about:hover img
 {
+	background:rgba(0,0,0,0.5)
+}
+
+.about p 
+{
+	 width:400;
+	 height:400px;
 	 float:left;
-	 height:155px;
-	 width:280px
+	 line-height:30px
+}
+.about h2
+{
+	margin-bottom:0px
 }
  
-.writers 
+/*      serves div     */
+.text
 {
-	 background:rgba(43, 28, 7, 0.5);
-     overflow:hidden;
-	 color:white;
-	 margin:30px	
-}
-.writers .example
-{
-	 height:200px;
-	 width:600px;
-	 overflow:hidden
+     background-image:url('../img/img5.jpg');
 }
 
-.writers .example h3
+.text2
 {
-	 margin:0px;
-	 padding-right:5px;
-     font-style:italic
-}
- .writers .example p
-{
-	 float:right;
-	 height:150;
-	 width:300px;
-	 text-align:justify;
-}
-.writer:hover .charles,.writer:hover .nagip
-{
-   
-}
-	
-.example img
-{
-	 float:left;
-	 height:150px;
-     width:150px
+	 background-image:url('../img/img4.jpg');
 }
 
-
-.ourbooks .contaner
+.text3
 {
-	 width:700px;
-	 height:750px;
-	 padding-left:15px;
-	 margin:auto
-}
-
-
-.ourbooks .contaner h2
-{
-	 width:150px;
-	 height:30px
-}
-
-.ourbooks .contaner img
-{
-     float:left;
-     width:220px;
-	 height:200px;
-	 margin-left:10px;
-	 margin-bottom:15px;
-	 box-shadow:3px -3px 2px 2px #1f1a14
-}
-
-
-
-/* the contact and order online */
-.order
-{
-	 padding:10px;
-	 margin:30px;
-	 background:rgba(43, 28, 7, 0.5)
-	
-}
-
-.order  h2
-{
-	 width:150;
-}
-
-.order form label
-{
-	 margin:10px;
-	 display:block;
-	 color:white
-}
-
-.order textarea
-{
-	 width:500px;
-	 height:180px;
-	 border:0px;
-	 background:rgba(123,83,22,0.5);
-}
-
-.order button
-{
-	 margin:20px;
-	 float:left;
-	 padding:5px;
-	 width:100px;
-	 border:0px;
-	 color:white;
-	 background:rgba(123,83,22,0.5);
-}
-
-.contact
-{
-	 background:rgba(43, 28, 7, 0.5);
-	 padding-bottom:20px;
-	 text-align:center;
-	 color:white;
-	 margin:30px
-}
-
-.contact p 
-{
-	 font-size:20px;
-	 color:gray
-}
-
-
-	
-.contact ul li
-{
-	 list-style-type:none;
-	 display:inline-block;
-	 overflow:hidden;
+	 background-image:url('../img/img8.jpg');
 	 
 }
+.text,.text2,.text3
+{
+	 background-size:cover;
+	 width:200px;
+	 height:310px;
+	 padding:20px;
+	 margin:10px;
+	 overflow:hidden;
+	 float:right
+}
 
-.contact ul li a
+.text p,.text2 p ,.text3 p
+{
+	background:white;
+	padding:10px;
+	height:120px;
+	margin:300px 0px 0px 0px;
+}
+
+.text:hover p ,.text2:hover p,.text3:hover p
+{
+	height:200px;
+	width:180px;
+	transition:1s;
+	margin:120px 0px
+}
+
+/*      customer div      */
+.customer 
+{
+	margin:20px;
+	width:750px;
+	height:300px;
+	padding:20px;
+	background:#dbdcdc;
+}
+
+.customer p 
+{
+	width:400px;
+	float:left;
+}
+.customer img
+{
+	width:300px;
+	height:200px;
+	float:right
+}
+.text4 
+{
+	height:300px;
+	width:220px;
+	margin:10px;
+	padding:10px;
+	float:right;
+	color:blue;
+	box-shadow:1px -2px 11px 2px #1f1a14
+}
+
+.text4:hover
+{
+	margin:20px;
+}
+
+.text4 h2
+{
+	padding-bottom:20px
+}
+
+/*      corona div       */
+.adv
+{
+	 background-image:url('../img/img1.jpg');
+	 height:400px;
+	 background-size:cover;
+	 font-size:30px
+}
+
+.adv .container
+{
+	color:white
+}
+
+
+/*      contact div       */
+.contact .container
+{
+	margin-top:10px;
+	height:550px
+}
+
+input
+{
+	display:block;
+	padding:5px;
+	width:750px;
+	margin:30px
+}
+
+textarea
+{
+	width:750px;
+	height:180px;
+	margin:30px
+}
+
+button
+{
+	float:right;
+	width:100px;
+	margin:20px
+}
+
+/*      end div     */
+.end 
+{
+	 background:rgba(43, 28, 7, 0.5);
+	 width:100%;
+	 height:200px
+}
+.end ul 
+{
+	list-style-type:none;
+}
+
+.end ul li
+{
+	 margin:10px;
+     font-weight:bold;
+	 display:inline-block;
+	 text-transform:capitalize;
+}
+
+.end ul li a
 {
      margin-bottom:20px;
 	 color:white;
-	 margin:20px
+	 margin:10px
 }
 
-.contact h2
+.end .container
 {
-	width:150;
-	margin-top:0px;
-} 
+	height:200px;
+	padding:30px;
+	margin-top:0px
+}
