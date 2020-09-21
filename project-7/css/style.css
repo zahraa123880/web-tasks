@@ -49,6 +49,11 @@ header
 	 background:none;
 	 border:1px solid white
 }
+
+.background .text input:hover
+{
+	background:black
+}
 /*   end the header  */
 
 
@@ -178,8 +183,18 @@ article .text details
 	 float:left;
 	 height:300px;
 	 margin-top:30px;
-	 border:2px solid gray
+	 border:2px solid gray;
+	 transition:all 0.7s ease-in-out;
+	 cursor:pointer
 }
+
+.members:hover
+{
+	 transform:translate(0,-30px) rotatey(360deg);
+	 opacity:0.2;
+	 transition:all 0.7s ease-in-out
+}
+
 .myt .members img
 {
 	 height:180px;
