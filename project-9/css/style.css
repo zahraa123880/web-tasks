@@ -1,0 +1,142 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	text-transform: capitalize;
+    box-sizing: border-box
+}
+
+body{
+	background-image: url('../imgs/806443.jpg');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+/* start the navbar   */
+nav
+{
+	position: fixed;
+	background: black;
+	height: 50px;
+	width: 100%;
+	color: gray
+}
+nav ul li
+{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 10px
+}
+nav ul li a
+{
+	text-decoration: none;
+    border-radius: 5px;
+	margin: 10px;
+	color: gray;
+	padding: 10px
+}
+
+nav ul .search
+{
+	float: right;
+	color: black
+}
+nav ul li input
+{
+	background: rgba(181, 181, 181, 0.5);
+	border-radius: 20px;
+	padding: 10px;
+	width: 300px;
+	border: none;
+	height: 20px
+}
+/* end the navbar   */
+
+/* start the boxshadow   */
+.box 
+{
+	height: 400px;
+	margin-bottom: 80px;
+	
+}
+.box article
+{
+    color: white;
+	float: left;
+	width: 29%;
+	padding: 20px;
+	height: 200px;
+	margin: 200px 0px 0px 130px;
+	background: rgba(46, 52, 56, 0.5);
+	box-shadow: 10px 5px 10px green,
+	           -11px -8px 10px blue
+}
+.box article h2
+{
+	margin-bottom: 10px;
+	text-align: center;
+	color: blue	
+}
+.box article:hover
+{
+	box-shadow: 10px 5px 10px #FFC107,
+	           -11px -8px 10px #de420a;
+}
+/*   end boxshadow   */
+
+/* start the button  */
+.botton{
+	height: 50px;
+	text-align: center;
+}
+ .botton a {
+	padding: 15px;
+	color: gray;
+	margin: 10px;
+    text-decoration: none;
+	border-radius: 20px 10px 20px;
+    background: linear-gradient(90deg,#03A9F4,#2724e0,#04146b);
+}
+/*   end the button  */
+
+/* start scale and rotate   */
+.scale
+{
+	height: 300px;
+	margin-top: 50px;
+	text-align: center;
+	background: rgba(46, 52, 56, 0.5);
+}
+.scale img 
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 100px;
+	transition: 2s
+	
+}
+
+.scale img:hover
+{
+	transform: scale(2.5,2.5)rotate(360deg);
+}
+/*   end scale and rotate    */
+
+/*  start translate   */
+.trans {
+	height:200px;
+	overflow: hidden;
+	background:rgba(0, 0, 0, 0.8);
+}
+.trans img 
+{
+	height: 180px;
+	margin-right:100px;
+	float: right;
+	transition: 2s
+}
+.trans:hover img 
+{
+	transform: translate(-200px,0px)scale3d(2,2,2);
+}
+	
+/*   end  translate  */
