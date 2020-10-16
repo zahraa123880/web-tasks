@@ -30,7 +30,7 @@ h1
 	height: 40px;
     width: 100%;
 	position: fixed;
-	background: gray;
+	background: #9c1744;
 	padding-bottom: 5px;
 }
  .top nav ul
@@ -41,33 +41,45 @@ h1
  .top nav ul li 
 {
 	display: inline-block;
-	margin: 10px
+	margin: 10px;
+	padding: 5px
+}
+.top nav ul li a:hover
+{
+	background: black;
 }
  .top nav ul li a 
 {
 	text-decoration: none;
-    color: black
+    font-weight: bold;
+	font-size: 18px;
+	padding: 5px;
+	color: gray
 }
+ 
  .top nav ul .home
 {
 	padding: 5px;
 	width: 60px;
-	background: #c53465;
+	background: black;
 	margin-left: 40px;
 	text-align: center
 }
 .top nav ul .search
 {
-	float: right
+	float: right;
 }
-
+.top nav ul .search input
+{
+	background: black;
+	margin-left:10px
+}
 .top .resize
 {
 	height: 10px;
-	min-width: 20%;
-	max-width: 60%;
+	width: 50%;
 	top: 80px;
-	left: 150px;
+	left: 200px;
 	resize: horizontal;
 	overflow: hidden;
 	padding: 10px;
@@ -85,6 +97,7 @@ h1
 	display: flex;
 	top:200px;
 	padding: 20px;
+	overflow: auto;
 	margin: 20px auto;
 	resize: horizontal;
 	position: relative;
@@ -95,31 +108,35 @@ h1
 .flex .one
 {
 	background: rgb(132,24,61,0.8);
-	padding-top: 50px;
-	font-size: 20px;
-	width: 200px
+	border: 20px solid #584b4d;
+	padding-top: 20px;
+	font-size: 25px;
+	width: 100px
 }
 .flex .two
 {
 	background: rgb(105,89,89,0.8);
-	width: 200px;
-	font-size: 20px;
-	padding-top: 50px;
+	border: 20px solid #930942;
+	width: 100px;
+	font-size: 25px;
+	padding-top: 20px;
 
 }
 .flex .three
 {
 	background: rgb(132,24,61,0.8);
-	width: 200px;
-	font-size: 20px;
-	padding-top: 50px;
+	border: 20px solid #584b4d;
+	padding-top: 20px;
+	width: 100px;
+	font-size: 25px
 }
 .flex .four
 {
 	background: rgb(105,89,89,0.8);
-	font-size: 20px;
-	width: 200px;
-	padding-top: 50px;
+	border: 20px solid #930942;
+	padding-top: 20px;
+	font-size: 25px;
+	width: 100px
 }
 
 /*   end  the flex div   */
@@ -251,7 +268,8 @@ h1
 	background-image: url('../imgs/123.jpg');
 	background-size: cover;
 	position: relative;
-	height: 300px;
+	overflow: auto;
+	height: 250px;
 	min-width: 50%;
 	max-width: 70%;
 	color: black;
