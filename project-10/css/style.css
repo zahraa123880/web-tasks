@@ -19,34 +19,39 @@ h1
 .top
 {
 	width: 100%;
-	height: 500px;
-	margin: 10px;
 	color: white;
-	background-image: url('../imgs/flower3.jpeg');
+	height: 500px;
+	background-image: url('../imgs/80.jpg');
 	background-size: cover
 }
 .top nav
 {
-	height: 40px;
+	z-index: 1;
     width: 100%;
+	height: 40px;
 	position: fixed;
-	background: #9c1744;
+	overflow: hidden;
+	background: #cccccc;
 	padding-bottom: 5px;
 }
  .top nav ul
 {
-	list-style-type: none
+	list-style-type: none;
+	height: 100%;
+	top: 0px
 }
 
  .top nav ul li 
 {
 	display: inline-block;
-	margin: 10px;
-	padding: 5px
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	height: 100%
 }
-.top nav ul li a:hover
+.top nav ul .icon:hover
 {
-	background: black;
+	background: #eaeaea;
 }
  .top nav ul li a 
 {
@@ -54,14 +59,17 @@ h1
     font-weight: bold;
 	font-size: 18px;
 	padding: 5px;
-	color: gray
+	color: black
 }
- 
+ .top nav ul li i 
+ {
+	margin-right: 5px;
+ }
  .top nav ul .home
 {
 	padding: 5px;
 	width: 60px;
-	background: black;
+	background: #eaeaea;
 	margin-left: 40px;
 	text-align: center
 }
@@ -78,7 +86,7 @@ h1
 {
 	height: 10px;
 	width: 50%;
-	top: 80px;
+	top: 120px;
 	left: 200px;
 	resize: horizontal;
 	overflow: hidden;
@@ -95,7 +103,7 @@ h1
 	width: 40%;
 	height: 100px;
 	display: flex;
-	top:200px;
+	top:230px;
 	padding: 20px;
 	overflow: auto;
 	margin: 20px auto;
@@ -265,7 +273,7 @@ h1
 /* start column div  */
 .column
 {
-	background-image: url('../imgs/123.jpg');
+	background-image: url('../imgs/s1200.jpg');
 	background-size: cover;
 	position: relative;
 	overflow: auto;
@@ -280,6 +288,10 @@ h1
 	column-count: 3;
 	column-width: 200px;
 	column-rule: 4px solid black
+}
+.column h1
+{
+	column-span: all;
 }
 /* end column div  */
 
