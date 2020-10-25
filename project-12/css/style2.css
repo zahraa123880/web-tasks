@@ -1,0 +1,339 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+}
+/*  start top  */
+.top
+{
+	background-image: url('../imgs/hairdresser.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 500px;
+}
+/*  start logo  */
+.logo
+{
+	width: 120px;
+	height: 100px;
+	position: relative
+}
+.logo img
+{
+	position: absolute;
+	width: 80px;
+	left: 30px;
+	height: 50px
+}
+/*  end  logo  */
+
+.top  a
+{
+	position: relative;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	z-index: 1;
+	left: 10%;
+    top: 50%;
+    text-decoration: none;
+    padding: 10px;
+	background: none;
+	transition: 0.5s;
+	border: 2px solid white
+}
+.top a span
+{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	transition: 0.5s; 
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: -1
+}
+.top a:hover span
+{
+	width: 100%
+}
+.top a:hover
+{
+	color: #968383
+}
+.h2 
+{
+	color: white;
+    font-size: 40px;
+    font-style: italic;
+    width: 200px;
+    position: absolute;
+    left: 80px;
+}
+/*  end top  */
+
+/*  start text  */
+.text
+{
+	height: 240px;
+	display: flex;
+	margin: 0px 30px 10px 50px;
+	text-align: center;
+	
+}
+.tex1
+{
+	width: 30%;
+	height: 100%;
+	margin: 10px;
+	padding: 10px;
+	transition: 0.5s;
+	box-shadow: 0 0 10px #d5dade, 0 0 10px #d6d9dc, 0 0 10px #FF5722;
+	
+}
+.tex1 img
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.tex1 p 
+{
+	font-style: italic;
+	margin-bottom: 20px;
+	color: gray;
+}
+.tex1 a 
+{
+	color: #009688;
+}
+.tex1:hover
+{
+	margin-top: 20px
+}
+/*  end text  */ 
+
+/*  start choose  */
+.choos
+{
+	height: 450px;
+	margin-top: 80px;
+	
+	
+}
+.choos .header
+{
+	margin-bottom: 50px;
+	text-align: center
+	
+	
+}
+.big-box
+{
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding-left: 20px
+}
+.box
+{
+	width: 100%;
+	padding:10px
+}
+.box h1
+{
+	font-style: italic;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #009688;
+}
+
+.box-tex
+{
+	padding-left: 20px;
+}
+.box-tex p 
+{
+	padding:0;
+	font-style: italic
+}
+.descr
+{
+	display: flex;
+	padding: 10px
+}
+.box-icon 
+{
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 20px;
+	line-height: 28px;
+    border-radius: 8px;
+	border: 1px solid #009688; 
+	color: #009688;
+}
+
+.img
+{
+	float: right;
+	width: 30%;
+	height: 90%
+}
+.img img
+{
+	float: right;
+	width: 100%;
+	height: 80%;
+	margin-right: 50px;
+	border-radius: 20px
+}
+/*  end choose  */
+
+/*  start footer */
+.footer
+{
+	padding: 100px 0 20px;
+	background: #efefef;
+	height: 300px;
+	position: relative
+}
+.footer h1
+{
+	text-align: center
+}
+.footer-row
+{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap
+}
+.footer-left,.footer-right
+{
+	padding: 10px;
+	margin: 20px;
+}
+.footer-right
+{
+	text-align: right
+}
+.footer-row h2
+{
+	margin: 10px 0;
+}
+.footer-row p 
+{
+	line-height: 25px
+	
+}
+.footer-left i,.footer-right i
+{
+	color:  #009688;
+	margin: 10px;
+}
+.footer-img
+{
+	position: absolute;
+	opacity: 0.1;
+	max-width: 370px;
+	left: 38%;
+	top: 10%;
+	transform: translate(-50px,-50px)
+}
+/
+.footer-btn
+{
+	width: 200px;
+	height: 40px;
+	margin: auto
+}
+.footer a
+{
+	position: relative;
+	font-style: italic;
+	font-weight: bold;
+	color: #009688;
+	z-index: 1;
+	left: 10%;
+    top: 50%;
+    text-decoration: none;
+    padding: 10px;
+	background: none;
+	transition: 0.5s;
+	border: 2px solid #009688
+}
+.footer a span
+{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	transition: 0.5s; 
+	top: 0;
+	left: 0;
+	background: #009688;
+	z-index: -1
+}
+.btn:hover span
+{
+	width: 100%
+}
+.btn:hover
+{
+	color: white;
+}
+/*  end  footer  */
+
+/*  start  medai query  */
+@media(max-width:900px){
+	.top a{
+		top: 60%;
+	}
+     .text{
+		 height: 340px;
+		 display: block
+	 }
+
+	.tex1{
+		width: 90%;
+		height: 33%
+	}
+	.tex1 p{
+		font-weight: 5px;
+	}
+	.tex1 img
+	{
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 50%;
+    }
+	.footer
+	{
+		height: 480px;
+		margin: 50px 0
+	}
+	.footer h1
+	{
+		margin-top: 50px;
+	}
+	.footer-row p
+	{
+		font-weight: 5px
+	}
+	.footer-right
+    {
+	    text-align: left
+    }
+	.footer-right i
+	{
+		float: left;
+		margin: 2px;
+	}
+}
+	
+/*  end   medai query  */	
+	
