@@ -79,7 +79,7 @@
 /*  start service  */
 .service
 {
-	height: 400px;
+	height: 750px;
 	padding: 60px 0px;
 	background: #efefef;
 }
@@ -155,7 +155,7 @@
 }
 .overlay h3	
 {
-	top: 120px;
+    top: 120px;
     left: 38%;
     position: absolute;
 }
@@ -163,8 +163,8 @@
 {
      width: 90%;
      height: 100px;
-	 position: absolute;
-    top: 170px;
+     position: absolute;
+     top: 170px;
 	padding: 0 20px
 }
 .overlay hr
