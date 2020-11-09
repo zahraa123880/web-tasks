@@ -1,0 +1,173 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+/*    start navbar  */
+nav
+{
+	height: 50px;
+	width: 100%; 
+	position: fixed;
+	background: #3c6378
+}
+nav a
+{
+	text-decoration: none;
+	text-align: center;
+	transition: 1s;
+	height: 100%;
+	color: white;
+	float: right;
+	width: 70px;
+	line-height: 45px;
+	margin-left: 20px
+}
+nav .home
+{
+	float: left;
+	width: 80px;
+	margin: 0;
+	background: #0f2030;
+}
+nav a:hover
+{
+	background: #dce3e9;
+	color: #3c6378
+}
+/*    end navbar  */
+
+/*    start function div */
+.top
+{
+	background-image: url('../imgs/back2.jpg');
+	background-attachment:fixed;
+	background-size: cover;
+	text-align: center;
+	padding-top: 20%;
+	display: flex;
+	height: 550px;
+	top: 50px;
+}
+label
+{
+	color: white;
+	font-size: 15px;
+}
+#inp input
+{
+	display: block;
+	margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+	background: #d2e0e3;
+}
+#inp button
+{
+	margin: 20px;
+	padding: 8px;
+    border-radius: 10px;
+    border: none;
+	color: #3c6378;
+	font-size: 15px;
+	background: #d2e0e3;
+}
+#inp
+{
+	width: 50%;
+	height: 90%;
+}
+#test
+{
+	color: white;
+	width: 40%;
+	height: 50%;
+	padding-top: 8%;
+	font-size: 20px;
+	background: rgb(106 134 138 / 0.8)
+}
+/*    end function div  */
+
+/*    start image function  */
+#look
+{
+	height: 500px;
+	background: #40697d;
+	overflow: hidden
+}
+#photo
+{
+	margin: auto;
+	display: flex;
+	width: 80%;
+	height: 90%
+}
+#photo button
+{
+	width: 150px;
+	color: white;
+    height: 25px;
+    margin: auto;
+    background: none;
+    border: 1px solid white;
+}
+#apper
+{
+	color: white;
+	width: 60%;
+	height: 50%;
+	padding-top: 8%;
+	font-size: 20px;
+}
+/*    end image function  */
+
+/*    start column  */
+#column
+{
+	height: 500px;
+	padding-top: 5%;
+	text-align: center;
+	background-image: url('../imgs/back.jpg');
+    background-size: cover;
+	background-attachment: fixed
+}	
+	
+#text
+{
+	background: rgb(6 11 5 / 0.5);
+	column-width: 100px;
+	overflow: hidden;
+	height: 300px;
+	width: 70%; 
+	color: white;
+	padding: 20px;
+	resize: both;
+	margin: 50px auto;
+	column-count: 3
+}
+#text h1
+{
+	margin-bottom: 15px;
+	color: white
+}
+#column a
+{
+	margin: 10px;
+	width: 20px;
+	height: 20px;
+	color: white
+}
+#column .copy
+{
+	display:block;
+	color: white;
+	margin-bottom: 20px
+}
+/*    end  column  */
+
+
+
+	
