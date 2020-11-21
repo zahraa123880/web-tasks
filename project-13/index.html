@@ -22,18 +22,25 @@
 	 <!-- ********************** start input function  ********************** -->
 	 <div class="top">
 	     <div id="inp">
-		     <label>frist name</label>
+		     <label>frist number</label>
 			 <input type="text" id="num1">
-			 <label>last name</label>
+			 <label>second number</label>
 			 <input type="text" id="num2">
-			 <button onclick="conver()">show me </button>
+			 <button onclick="conver()"> claculate </button>
 		 </div>
 		 <div id="test"></div>
      </div>
      <div id="look">
 	     <div id="photo">
-			 <button onclick="img()"> click here </button>
-			 <div id="apper"></div>
+			 <input list="ima" type="search" id="pho" value="write here"> 
+			 <datalist id ="ima">
+			     <option value="image1"></option>
+				 <option value="image2"></option>
+			     <option value="image3"></option>
+				 <option value="image4"></option>
+			 </datalist>
+			 <button onclick="img()"> search </button>
+			 <div id="pic"></div>
 		 </div>
 	 </div>
 	 <!-- ********************** end input function  ********************** -->
@@ -44,7 +51,7 @@
 		       <h1>supprt</h1>
 			  <p>
 				 Flowers  are available in nature in many colors and types, also
-				 it has been hybridized some of them to get the roses in distinctive and beautiful colors.
+				 it has been hybridized some of them .
 			 </p>
 		     <h1>head</h1>
 			 <p>

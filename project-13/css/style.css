@@ -89,6 +89,12 @@ label
 	font-size: 20px;
 	background: rgb(106 134 138 / 0.8)
 }
+#pho
+{
+	width: 250px;
+    margin: auto;
+    height: 30px;
+}
 /*    end function div  */
 
 /*    start image function  */
@@ -102,19 +108,26 @@ label
 {
 	margin: auto;
 	display: flex;
-	width: 80%;
+	width: 85%;
 	height: 90%
+}
+#pho{
+	color: white;
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 15px;
 }
 #photo button
 {
 	width: 150px;
 	color: white;
     height: 25px;
-    margin: auto;
+    margin: auto 50px;
     background: none;
     border: 1px solid white;
 }
-#apper
+#pic
 {
 	color: white;
 	width: 60%;
@@ -138,15 +151,14 @@ label
 #text
 {
 	background: rgb(6 11 5 / 0.5);
-	column-width: 100px;
+	column-width: 200px;
 	overflow: hidden;
 	height: 300px;
 	width: 70%; 
 	color: white;
-	padding: 20px;
+	padding: 10px;
 	resize: both;
 	margin: 50px auto;
-	column-count: 3
 }
 #text h1
 {
