@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>zahraa-task1-js</title>
+	 <link rel="stylesheet" href="css/style.css">
+	 <!-- *************** fontwoseome *************** -->
+	 <link rel="stylesheet" href="css/brands.min.css"/>
+     <link rel="stylesheet" href="css/fontawesome.min.css"/>
+     <link rel="stylesheet" href="css/solid.min.css"/>
+ </head>
+ <body>
+      <!-- ********************** start navbar  ********************** -->
+     <nav>
+	     <a href="#" class="home">home</a>
+		 <div id="sear">
+		     <i class="fas fa-search"></i><input type="search" class="search" placeholder="search">
+		 </div>
+	 </nav>
+	  <aside>
+	     <a href="#" class="face"><i class="fab fa-facebook"></i></a>
+		 <a href="#" class="twi"><i class="fab fa-twitter-square"></i></a>
+		 <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+		 <a href="#" class="mass"><i class="fab fa-facebook-messenger"></i></a>
+	 </aside>
+	 <!-- ********************** end navbar  ********************** -->
+	 
+	 <!-- ********************** start input function  ********************** -->
+	 <div class="top">
+	     <div id="inp">
+		     <label>frist number</label>
+			 <input type="text" id="num1">
+			 <label>second number</label>
+			 <input type="text" id="num2">
+			 <div type="text" id="test"></div>
+			 <button onclick="conver()"> add </button>
+		 </div>
+     </div>
+	 <hr>
+	 <!-- ********************** end input function ********************** -->
+	 
+	 <!-- ********************** start prompet  ********************** -->
+	 <div id="name">
+	     <div id="but">
+	         <button onclick="uName()"> prompet</button>
+		 </div>
+		 <div id="apper">
+		 </div>
+	 </div>
+	 <hr>
+	 <!-- ********************** end  prompet ********************** -->
+	 
+	 <!-- ********************** start typping data ********************** -->
+	 <div id="prop">
+		 <div id="date">
+			 <div id="time" onclick="typeDate()">show my the date on click</div>
+		 </div>
+		 <hr style="width:80%">
+		 <div id="input">
+			 <input type="text" id="lin"  onkeypress="typeLength()">
+			 <div id="type"></div>
+		 </div>
+		 <hr style="width:80%">
+		 <div id="color">
+		     <input type="color" id="colo" onchange="this.value" />
+            <span onmouseenter="this.style.background = document.getElementById('colo').value">
+                hover to change background color
+            </span>
+		 </div>
+	 </div>
+	 <hr>
+	 <!-- ********************** end  typping data ********************** -->
+	 
+	 <!-- ********************** start array ********************** -->
+	 <div id="arr">
+          <input type="text" id="number" />
+          <p>choose number of elements to store (maximum 19 user)</p>
+          <br />
+          <button class="but"
+            onclick="isNaN(document.getElementById('number').value) || document.getElementById('number').value == '' ?  ( confirm('type valid number') 
+			? alert('good') : alert('not aprroved ans') )  : typeArry(Number(document.getElementById('number').value))  "
+          >
+             make array
+          </button>
+
+          <button class="but"
+            onclick="confirm('are you sure') ? document.getElementById('ele').innerText = '' : '' "
+          >
+             del array
+          </button>
+
+          <div id="ele"></div>
+     </div>
+	 <hr>
+	 <!-- ********************** end array ********************** -->
+	 
+	 <!-- ********************** start footer********************** -->
+	 <div id="foot">
+	      <i>copyrights &copy; </i>
+		  <br>
+		 <p> this website made by zahraa<p>
+	 </div>
+	 <!-- ********************** java script  ********************** -->
+     <script src="css/main.js"></script>
+ </body>
+</html>

@@ -1,0 +1,267 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+body
+{
+	background-image: url('../imgs/bg.jpg');
+	background-attachment:fixed;
+	background-size: cover;
+}
+/*    start navbar  */
+nav
+{
+	height: 50px;
+	width: 100%; 
+	position: fixed;
+	background: #3c6378
+}
+#sear
+{
+	float: right;
+	width: 40%;
+    line-height: 45px
+}
+#sear i
+{
+	margin-right: 5px;
+	color: #eae8e8
+}
+#sear input
+{
+	width: 85%;
+	padding: 5px;
+	border-radius: 20%
+}
+nav .home
+{
+	text-decoration: none;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 20px;
+	height: 100%;
+	color: white;
+	float: left;
+	width: 80px;
+	margin: 0;
+	background: #0f2030;
+}
+nav a:hover
+{
+	background: #dce3e9;
+	color: #3c6378
+}
+/*    ene navbar  */
+
+/*    start aside nav  */
+aside
+{
+	font-size: 18px;
+	position: fixed;
+    left: -70px;
+	margin: 60px 10px
+}
+.face,.twi,.insta,.mass
+{
+     text-decoration: none;
+	 position: absolute;
+	 border-radius: 5px;
+	 text-align: center;
+	 transition: 1s;
+	 color: white;
+	 padding: 5px;
+	 width: 80px;
+	 height: 30px;
+	 top: 10px;
+	 left: 10px
+}
+.face
+{
+     background: #a181da;
+	 top: 10px
+}
+.twi
+{
+	 background: #673ab7;
+	 top: 41px; 
+}
+.insta
+{
+	 background: #3d1388;
+	 top:72px;
+}
+.mass
+{  
+     background: #270b58;
+	top: 103px
+}
+.face:hover,.twi:hover,.insta:hover,.mass:hover
+{
+	 left: 70px;
+	 padding-right: 3px
+}
+/*  end aside navbar  */
+
+
+/*    start input function  */
+.top
+{
+	text-align: center;
+	padding-top: 10%;
+	display: flex;
+	height: 100%;
+	top: 50px;
+}
+label
+{
+	color:white;
+	font-size: 20px;
+}
+#inp input
+{
+	display: block;
+	color: white;
+	border: none;
+	width: 70%;
+	margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+	background: rgb(101 63 169 / 80%);
+	box-shadow: -2px 2px 10px 8px #0b0f10,
+	            -1px 3px 2px 1px #0b0f10;
+}
+ button
+{
+	margin: 20px;
+	width: 70%;
+	padding: 8px;
+    border-radius: 10px;
+    border: none;
+	color: white;
+	font-size: 15px;
+	background: linear-gradient(90deg,#9C27B0,#673AB7,#120529)
+}
+#inp
+{
+	width: 40%;
+	color: white;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+	resize: both;
+	height: 90%;
+	box-shadow: 15px -16px 19px 0px #673AB7,
+            	-15px 5px 9px 1px #9C27B0;
+}
+#test
+{
+	width: 70%;
+	margin: 30px auto;
+	height: 200px;
+	padding-top: 8%;
+	font-size: 20px;
+	background: rgb(101 63 169 / 80%);
+	box-shadow: -2px 2px 10px 8px #712a7d, 
+	            -1px 1px 0px 0px #0b0f10;
+}
+/*  end input function  */
+
+
+/*    start name peompet  */
+hr
+{
+	width: 80%;
+	margin: 30px auto;
+}
+#name
+{
+	margin: 20px auto;
+	padding-top: 50px;
+	text-align: center;
+	width: 50%;
+	height: 200px;
+	background: rgb(74 74 125 / 80%);
+	box-shadow: 15px -16px 19px 0px #673AB7,
+            	-15px 5px 9px 1px #9C27B0;
+}
+/*  end name peompet  */
+
+
+/*    start data functon  */
+#prop,#arr
+{
+	margin: 10px auto;
+	padding: 10px;
+	width: 50%;
+	text-align: center;
+	background: rgb(128 128 128 / 0.8);
+	box-shadow: 15px -16px 19px 0px #673AB7,
+            	-15px 5px 9px 1px #9C27B0;
+}	
+#date
+{
+	margin: 20px auto;
+	background: white;
+	padding: 10px;
+	width: 55%
+}
+#input
+{
+	display: flex;
+	margin: auto;
+	height: 20px;
+    width: 40%
+}
+/*  end data functon   */
+
+
+/*    start array functon  */
+#number
+{
+	margin: 10px;
+}
+.but
+{
+	margin: 5px;
+	width: 100px;
+	padding: 8px;
+    border-radius: 10px;
+    border: none;
+	color: white;
+	font-size: 15px;
+	background: linear-gradient(90deg,#9C27B0,#673AB7,#120529)
+}
+	
+#type
+{
+	margin: 5px;
+}
+
+#ele
+{
+	background: rgb(156 39 176 / 0.5);
+	height: 150px;
+	margin: 10px;
+	padding: 10px;
+}
+#foot
+{
+	text-align: center;
+	color: white;
+	margin: 20px;
+}
+@media(max-width:900px)
+{
+	#inp{
+		 width: 60%;
+	     height: 40%;
+	}
+}
+	
+
+
+
+	
